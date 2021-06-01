@@ -17,3 +17,27 @@
   section{
       display: none;
   }
+  h1{
+      color: blue;
+      text-size-adjust: 30px;
+      align-items: center;
+  }
+  p{
+      color: cadetblue;
+      text-size-adjust: 18;
+
+  }
+  button{
+      color: cornsilk;
+      background-origin: padding-box;
+      color: darkblue;
+  }
+  footer {
+    width: 50%;
+    
+    color: var(--tertiary);
+    font: size 1px;
+    padding: 10px;
+    border-top: 5px solid var(--primary);
+    text-size-adjust: 10px;
+  }
