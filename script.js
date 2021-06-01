@@ -3,10 +3,10 @@ var startButton = document.querySelector(".button")
 var startContainer = document.querySelector("header")
 var questionArea = document.querySelector("section")
 var questions = [{
-questionText: "what color is the sky",choices: ["red", "blue", "white", "black"], correctAwnser: "blue" }, { 
-questionText: "what many states in the USA", choices: [52,20,49,30], correctAwnser: 52 },
-{questionText:"what is my favorites food?", choices:["noodles","rice","meat","fish"],correctAwnser:"all of the above"},
-{questionText:"what is my nationality?", choices:["Korean","vietnamese","japanese","American"], correctAwnser:"American"}]
+questionText: "Which of these values is NOT considered false?",choices: [0, "0", "null", " "], correctAwnser: "null" }, { 
+questionText: "to verify that the correct files were modified", choices: ["git status","git add","git branch","git push"], correctAwnser: "git status" },
+{questionText:"We can comment out a line or multiple lines of code by adding", choices:["//","++","||","out"],correctAwnser:"//"},
+{questionText:"Arrays that start their index at zero are called ", choices:["zero","zero-indexed arrays","first-indexed","zero-array"], correctAwnser:"zero-indexed arrays"}]
 
 var currentQuestionIndex = 0
 var questionText = document.querySelector("#questiontext")
@@ -15,7 +15,7 @@ var anwserButton2 = document.querySelector("#anwserbutton2")
 var anwserButton3 = document.querySelector("#anwserbutton3")
 var anwserButton4 = document.querySelector("#anwserbutton4")
 var timerInterval 
-var timeleft = 60
+var timeleft =30
 function timer(){
     
     timerInterval = setInterval(() => {
